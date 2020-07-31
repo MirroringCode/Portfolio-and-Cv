@@ -1,0 +1,242 @@
+
+
+html{
+    
+	font-family: serif;
+}
+
+.body{
+    
+     
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+.containerBox {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+}
+
+.profile {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height:500px;
+	margin: 50px 0 10px 0px;
+}
+
+.profilePosition {
+
+	width:350px ;
+	height:350px;
+	border: 4px purple solid;
+	border-radius: 50%;
+}
+.MyName{
+
+	font-size:58px;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-weight:150;	
+}
+
+.Profession{
+
+	font-size:39px;
+	color:darkcyan;
+	text-transform: capitalize;
+	margin: 20px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.Summary{
+	font-size:25px;
+	text-align: center;
+	font-weight:100;
+}
+			
+
+/*area contenido*/
+
+.Content{
+
+	display: flex;
+	height:auto;
+	width:100%;
+	justify-content: center;
+	margin: 100px 50px;
+	font-weight: 300;
+}
+
+.contentLeft{
+	background-color:;
+	/*flex: 4 1 auto;*/
+	width:45%;
+	text-align: end;
+}
+
+.contentRight{
+	/*background-color:;*/
+	/*flex: 4 1 auto;*/
+	width:45%;
+	
+}
+
+.title{
+	font-size:44px;
+	color:dodgerblue;
+	font-weight:900;
+	margin: 20px 0 65px 0;
+}
+
+
+
+
+.division{
+	width:10px;
+    height: auto;
+	border-radius:4px;
+	background: linear-gradient(to bottom, gray, cyan);
+	margin: 0 100px;
+}
+
+.role, 
+.ProjectName{
+	font-size:33px;
+	font-weight: 900;
+	color: ;
+}
+
+.company{
+    
+    font-size: 26px;
+    margin: 10px;
+}
+
+.date{
+    
+    font-size: 24px;
+    margin: auto;    
+}
+
+.description{
+	
+	margin: auto;
+    font-size: 27px;
+}
+
+.Skills{
+    
+    display:flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    
+}
+
+.NameOfSkill{
+    
+    color:cadetblue;
+    font-weight: 800;
+    font-size: 25px;
+    margin: 20px 0;
+    
+}
+
+.SkillBar{
+    
+    width: 100%;
+    height: 8px;
+    background-color:gray;
+    margin: 50px 0px ;
+    
+}
+
+.SkillCompletion{
+    
+    width:30%;
+    height:6px;
+    background-color: black;
+    float: right;
+
+}
+
+
+#Frend{
+    
+    width: 250px;
+}
+
+#Bend{
+    
+   width: 55px;
+}
+
+		
+#DB{
+    
+    width: 19px;
+}
+
+
+#Linux{
+    
+    width:90px;
+}
+
+.Project {
+    
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.positionProject{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProjectImgPos{
+    
+    max-width: 30%;
+    max-height: 200px;
+    margin: 10px 0 48px 0;
+}
+
+.ProjectIMG{
+    
+    width:100%;
+}
+
+.ContactPlace{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+        
+}
+
+.object{
+    
+    display: flex;
+    align-items: center;
+    margin: 24px;
+    
+}
+
+.infoContact{
+    
+    font-size: 28px;
+    color: darkslategray;
+    font-weight: 100;
+    margin: 0 21px;
+    font-size: 65x;
+}
